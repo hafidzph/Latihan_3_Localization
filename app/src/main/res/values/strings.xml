@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Latihan_Themes</string>
+    <string name="login">MASUK</string>
+    <string name="masukkan_username" translatable="false">Masukkan Username</string>
+    <string name="loginBtn">Masuk</string>
+    <string name="masukkan_password" translatable="false">Masukkan Password</string>
+    <string name="don_t_have_account_yet" translatable="false">Belum mempunyai akun? Daftar di sini</string>
+    <string name="register">DAFTAR</string>
+    <string name="name" translatable="false">Masukkan Nama</string>
+    <string name="ulangi_password" translatable="false">Ulangi Password</string>
+    <string name="alreadyHaveAcc" translatable="false">Sudah punya akun? Masuk di sini</string>
+    <string name="welcome" translatable="false">Halo, Selamat Datang</string>
+</resources>

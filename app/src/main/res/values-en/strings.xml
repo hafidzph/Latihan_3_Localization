@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Latihan_Themes</string>
+    <string name="login">LOGIN</string>
+    <string name="masukkan_username" translatable="false">Input Username</string>
+    <string name="loginBtn">Login</string>
+    <string name="masukkan_password" translatable="false">Input Password</string>
+    <string name="don_t_have_account_yet" translatable="false">Don\'t have account yet? Sign in here</string>
+    <string name="register">REGISTER</string>
+    <string name="name" translatable="false">Input Name</string>
+    <string name="ulangi_password" translatable="false">Repeat Password</string>
+    <string name="alreadyHaveAcc" translatable="false">Already have account? Login here</string>
+    <string name="welcome" translatable="false">Hello, Welcome</string>
+</resources>

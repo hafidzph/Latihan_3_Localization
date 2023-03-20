@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/bgBlue"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@color/blue_light"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_marginBottom="-5dp"
+        android:src="@drawable/wave_home"
+        app:layout_constraintTop_toBottomOf="@+id/bgBlue" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/homeText"
+        style="@style/home_headline"
+        android:text="@string/welcome"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="200dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
